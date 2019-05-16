@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Issue Tracker</title>
+</head>
+<body>
+	
+		<h1>ISSUE TRACKER</h1><br><br>
+		<form action="CheckIssue.jsp"  method="get"> 
+		Search: <input type="text" name="search"><br>
+		<input type="submit" value="StartSearch"> <br>
+		</form>
+		<form action="CreateIssue" method="get"> 
+		<h4>Create new issue:</h4>
+		Department: <br>
+			<input type="radio" name="dept" >ISE  <br>
+			 <input type="radio" name="pocket" >CSE<br>
+			
+		Subject: <input type="text" name=subject><br>
+		Problem: 
+			<input type="text" name=problem><br>
+		
+		solution:
+		  <input type="text" name=problem><br>
+		
+		
+		<input type="submit" value="New Issue"> 
+	</form>
+</body>
+</html>
